@@ -72,40 +72,35 @@ Optional: `Camera Frame → Gesture Overlay → External Display`
 ```
 Silent-Voice/
 │
-├── README.md                    # Full documentation
-├── LICENSE                      # MIT recommended
+├── README.md                   
+├── LICENSE                 
 │
-├── models/
+├── OpenMV/
 │   ├── trained.tflite
 │   ├── labels.txt
-│   └── model_metadata.json
-│
-├── firmware/
-│   ├── silent_voice_openmv.py   # Main inference + streaming script
-│   ├── display_mode.py          # Optional display-connected script
-│   └── wifi_credentials.txt     # Template
+│   └── main.py
 │
 ├── dataset/
-│   ├── dataset_summary.md       # Class counts, methodology
-│   └── samples/                 # (Optional few samples, dataset is private)
+│   ├── dataset_summary.md      
+│   └── samples/                 
 │
 ├── edge-impulse/
 │   ├── impulse_screenshot.png
 │   ├── confusion_matrix.png
 │   ├── validation_metrics.png
-│   └── project_readme.md        # Edge Impulse dashboard README
+│   └── project_readme.md      
 │
 ├── docs/
 │   ├── architecture_diagram.png
 │   ├── system_flowchart.png
 │   ├── hardware_setup.png
-│   └── methodology.pdf          # Optional
+│   └── methodology.pdf      
 │
 └── demo/
     ├── demo_video_link.txt
     ├── images/
-    │   ├── hand_detection_sample.png
-    │   ├── gesture_classification_sample.png
+    │   ├── Data_collection.png
+    │   ├── Inferencing.png
     └── streaming_screenshot.png
 ```
 
