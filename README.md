@@ -127,7 +127,7 @@ Edit:
 ```python
 SSID = "YourHotspotName"
 KEY  = "YourPassword"
-
+```
 ### **Run the script in OpenMV IDE**
 ### **6. Open the live video stream**
 

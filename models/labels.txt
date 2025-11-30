@@ -1,0 +1,16 @@
+background
+agree
+angry
+bad
+come
+fine
+go
+happy
+hello
+how
+hungry
+me
+please
+sorry
+thank
+you
